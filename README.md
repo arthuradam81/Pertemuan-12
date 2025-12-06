@@ -102,7 +102,6 @@ flowchart TD
     B -->|Lainnya| B
 ```
 
----
 
 ## 4. Penjelasan Program
 
@@ -116,41 +115,3 @@ Program ini menggunakan satu kelas bernama **DaftarNilaiMahasiswa**, yang menyim
 * **ubah(nama)** → mengubah nilai mahasiswa berdasarkan nama jika ditemukan.
 
 Pada bagian **program utama**, menu interaktif disediakan dalam loop sehingga user dapat memilih aksi yang ingin dilakukan.
-
-Diagram Class
-+--------------------------------------+
-|        DaftarNilaiMahasiswa          |
-+--------------------------------------+
-| - data : dictionary                  |
-+--------------------------------------+
-| + tambah()                           |
-| + tampilkan()                        |
-| + hapus(nama)                        |
-| + ubah(nama)                         |
-+--------------------------------------+
-
-
-Flowchart
-                +----------+
-                |  Mulai   |
-                +----------+
-                      |
-                      v
-              +----------------+
-              |   Pilih Menu   |
-              +----------------+
-          /        |        |        |        \
-         v         v        v        v         v
-   +-----------+ +-----------+ +-----------+ +-----------+ +-----------+
-   | Tambah    | | Tampilkan | | Hapus     | |  Ubah     | |  Keluar   |
-   |   Data    | |   Data    | |  Data     | |   Data    | |           |
-   +-----------+ +-----------+ +-----------+ +-----------+ +-----------+
-        |             |             |             |            |
-        v             v             v             v            v
-   (Kembali ke menu)  (Kembali ke menu)  (Kembali ke menu)  (Kembali ke menu)
-                                                           atau selesai
-                      |
-                      v
-                 +----------+
-                 | Selesai  |
-                 +----------+
